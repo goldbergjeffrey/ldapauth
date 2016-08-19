@@ -1,0 +1,20 @@
+{
+  "name": "qlik_ldapauth",
+  "version": "1.0.0",
+  "description": "A identity verification solution wired up to an ldap that authenticates users and then logs users into Qlik Sense.",
+  "main": "ldapauth.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.4.0",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "passport": "^0.3.2",
+    "passport-ldapauth": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeff Goldberg",
+  "license": "ISC"
+}
